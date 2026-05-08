@@ -7,7 +7,6 @@ public class DiaryEntry {
     private String title;
     private String content;
     private LocalDate date;
-    private LocalDate date2; // 에러있는코드
 
     public DiaryEntry(int id, String title, String content, LocalDate date) {
         this.id = id;
